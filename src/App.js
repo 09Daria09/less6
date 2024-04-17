@@ -3,6 +3,7 @@ import Form1 from "./Form1";
 import Editor from "./TextEditor/textEditor";
 import Switch from "./Switch/switch";
 import PhotoUploadForm from "./PhotoUpload/photoUpload";
+import Counter from "./Counter/counter";
 
 function App() {
   const sectionStyle = {
@@ -41,6 +42,12 @@ function App() {
       <div style={sectionStyle}>
         <div style={headerStyle}>Задание 5: Компонент Foto</div>
         <PhotoUploadForm />
+      </div>
+      
+
+      <div style={sectionStyle}>
+        <div style={headerStyle}>Задание 6: Компонент Counter</div>
+        <Counter />
       </div>
     </>
   );

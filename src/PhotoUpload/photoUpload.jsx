@@ -86,7 +86,7 @@ class PhotoUploadForm extends Component {
                             contrast(${photo.contrast}%) 
                             saturate(${photo.saturation}%) 
                             hue-rotate(${photo.hue}deg) 
-                            blur(${photo.blur}px)`, width: '200px', height: '250px' }} />
+                            blur(${photo.blur}px)`, width: '160px', height: '250px' }} />
                         </div>
                     ))}
                 </div>
